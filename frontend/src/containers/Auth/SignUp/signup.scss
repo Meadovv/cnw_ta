@@ -1,0 +1,199 @@
+.signup-page-container {
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: 178px;
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to left, rgb(207, 205, 205) 0%, #9ac7f1 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    box-shadow: 0 0 10px 5px rgb(182, 177, 177);
+    color: #202124;
+    font-size: 15px;
+    padding: 40px;
+    height: auto;
+    width: 750px;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif !important;
+    background: white;
+}
+
+.main .brand h4 {
+    margin-top: 7px;
+    font-size: 30px !important;
+}
+
+.main h2 {
+    font-weight: 500;
+}
+
+.main .main__form__children {
+    display: flex;
+}
+
+
+.main .main__form__children .google-image {
+    margin-top: -30px;
+    width: 252px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main .main__form__children .google-image figcaption {
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #5f6368;
+}
+
+.main .main__form__children.invalid .form-message {
+    color: red;
+}
+
+.main .inputEmail p.invalid,
+.main .inputPassword p.invalid {
+    color: red;
+}
+
+.main inputPassword #password.invalid,
+.main .inputPassword #verPassword.invalid {
+    border: 1px solid red;
+}
+
+.main .inputEmail input.invalid {
+    border: 1px solid red;
+}
+
+.main .main__form__children .inputBox #fullName.invalid {
+    border: 1px solid red;
+}
+
+.main .form-message {
+    /* font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0; */
+}
+
+.main .main__form__children p,
+.main .main__form__children .form-message {
+    padding: 8px;
+    font-size: 14px;
+    color: #5f6368;
+    margin-top: -4px;
+    width: 354px;
+}
+
+.main .main__form__children a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--gm-colortextbutton-ink-color, rgb(75, 148, 245));
+    font-family: "Google Sans", Roboto, Arial, sans-serif !important;
+    letter-spacing: .0107142857em;
+    text-transform: none;
+}
+
+.main .main__form__children a:hover {
+    color: var(--gm-colortextbutton-ink-color, rgb(29, 103, 200));
+}
+
+.main .usePresentEmail {
+    // margin-top: -8px;
+}
+
+.main .box {
+    width: 60%;
+}
+
+.main .main__form__children .inputPassword {
+    margin-top: 20px;
+}
+
+.main .inputBox input {
+    width: 100%;
+    font-size: 15px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgb(186, 183, 183);
+    margin-right: 8px;
+    padding-left: 8px;
+}
+
+.main .main__form__children .inputPassword input {
+    width: 163px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgb(186, 183, 183);
+    padding-left: 8px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.main .inputEmail input {
+    margin-top: 20px;
+    width: 100%;
+    height: 32px;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(186, 183, 183);
+    font-size: 15px;
+}
+
+.main .showPassword {
+    margin-top: -7px;
+    height: 30px;
+    display: flex;
+}
+
+.main .showPassword input {
+    height: 18px;
+    width: 18px;
+}
+
+.main .showPassword .textShow {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.main .button-list {
+    width: 334px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .button-list .btn-next {
+    height: 36px;
+    width: 111px;
+    background: var(--gm-colortextbutton-ink-color, rgb(53, 131, 232));
+    color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* .btn-next :hover {
+    background: var(--gm-colortextbutton-ink-color, rgb(29, 103, 200));
+  } */
+
+.main .button-list .btn-signUP {
+    color: var(--gm-colortextbutton-ink-color, rgb(75, 148, 245));
+    background: #fff;
+    font-weight: 600;
+    border: 0px solid #fff;
+    font-size: 15px;
+    cursor: pointer;
+    width: 93px;
+    height: 36px;
+}
+
+.input-comment i {
+    font-size: 120%;
+    cursor: pointer;
+}

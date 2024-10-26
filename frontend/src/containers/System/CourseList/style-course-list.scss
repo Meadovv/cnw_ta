@@ -1,0 +1,277 @@
+//@import "~bootstrap/scss/bootstrap";
+@import "../../../styles/variables";
+
+.CourseList {
+  font-family: $fontmain !important
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.popular-location .single-location {
+  position: relative
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.course-list img {
+  height: 250px;
+  width: 300px;
+}
+
+.popular-location .single-location .location-img {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0
+}
+
+.popular-location .single-location .location-img::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background: rgba(90, 78, 140, 0.3);
+  z-index: 1;
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-img img {
+  width: 100%;
+  transform: scale(1);
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-details {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: 40%;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-details h4 a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 2px
+}
+
+@media (max-width: 575px) {
+  .popular-location .single-location .location-details h4 a {
+    font-size: 18px;
+    line-height: 1.1
+  }
+}
+
+.popular-location .single-location .location-details p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300
+}
+
+.popular-location .single-location .location-details .location-btn {
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s;
+  background: white;
+  padding: 7px 13px;
+  color: black;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14px;
+  visibility: hidden;
+  font-weight: 600;
+  opacity: 0
+}
+
+.popular-location .single-location .location-details .location-btn:hover {
+  background: #fff;
+  color: #584e8d
+}
+
+.popular-location .single-location .location-details .location-btn i {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -3px
+}
+
+.single-location:hover .location-img::before {
+  background: rgba(90, 78, 140, 0.7)
+}
+
+.single-location:hover .location-img img {
+  transform: scale(1.05)
+}
+
+.single-location:hover .location-details {
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.single-location:hover .location-details .location-btn {
+  visibility: visible;
+  opacity: 1
+}
+
+.carousel {
+
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.item-1 {
+  background: linear-gradient(to left, rgb(247, 177, 84) 0%, #d83503 100%);
+  z-index: 1;
+}
+
+.cau-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.item-2 {
+  background: linear-gradient(to left, rgb(152, 155, 222) 0%, #4a049ffd 100%) !important;
+  z-index: 1;
+}
+
+.button-registerCourse {
+  border-radius: 20px;
+  border: 2px solid white;
+  width: 170px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-container img {
+  height: 520px;
+  width: 600px;
+}
+
+.section-tittle h2 {
+  font-weight: 400;
+}
+
+.section-tittle p {
+  font-size: 20px;
+}
+
+.action-post {
+  font-size: 20px;
+}
+
+.action-post i {
+  cursor: pointer;
+}
+
+#myCarousel {
+  position: sticky;
+}
+
+.popular-location .single-location .location-img-add {
+  border-radius: 15px;
+  border: 2px dashed rgb(206, 199, 199);
+  overflow: hidden;
+  position: relative;
+  z-index: 0
+}
+
+.popular-location .single-location .location-img-add::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  z-index: 1;
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-img-add img {
+  width: 100%;
+  transform: scale(1);
+  -webkit-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  -ms-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-img-add:hover {
+  color: #f05123;
+  border: 2px dashed #f05123;
+  transition: all .4s ease-out 0s
+}
+
+.popular-location .single-location .location-img-add i {
+  font-size: 25px;
+  color: #f05123;
+}
+
+
+.add-course-btn {
+  border: 2px solid #f05123;
+  color: #f05123;
+  background-color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: 600;
+}

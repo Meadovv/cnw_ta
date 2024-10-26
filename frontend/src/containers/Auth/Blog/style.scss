@@ -1,0 +1,41 @@
+.cardx {
+    background-position: center;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avatar-img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    border: radius 0.4em;
+}
+
+.nav-link-secondary a {
+    cursor: pointer;
+}
+
+.view-more {
+    background: rgb(209, 207, 207);
+    font-weight: bold;
+}
+
+.nav.nav-link-secondary li:hover {
+    background-color: rgb(213, 219, 225);
+    transition: background-color 0.5s ease;
+
+}
+
+.suggestion {
+    background: rgb(209, 207, 207);
+    border-radius: 5px !important;
+}
+
+.suggestion h5 {
+    padding-bottom: 8px;
+}
+
+.nav.nav-stack li a {
+    cursor: pointer;
+}

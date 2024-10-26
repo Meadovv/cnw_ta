@@ -1,0 +1,194 @@
+.learn_header {
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50px;
+    background-color: #29303b;
+    position: relative;
+    z-index: 1;
+    --wrapper-height: 50px;
+    color: white;
+
+    .learn_header-left {
+        padding: 11px 0;
+    }
+
+    .learn_header-right {
+        font-size: 14px;
+
+        .abc {
+            align-items: center;
+            display: flex;
+
+            div {
+                margin-left: 20px;
+            }
+
+            span {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.learn_footer {
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, .1);
+    font-size: 14px;
+
+    .lesson_pre {
+        height: 32px;
+        width: 121px;
+        opacity: 0.5;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .lesson_next {
+        margin-left: 12px;
+        height: 32px;
+        width: 121px;
+        border: 2px solid #f05123;
+        color: #f05123;
+        border-radius: 5px;
+        padding: 3px;
+        cursor: pointer;
+    }
+}
+
+.learn_body-footer-title {}
+
+.learn_body-footer {
+    margin-top: 30px;
+    padding: 0 120px;
+    justify-content: space-between;
+}
+
+.learn_body-left .learn_body-footer-title h4 {
+    color: black;
+    font-weight: 700;
+}
+
+.learn_body-footer .learn_body-note button {
+    border: none;
+    width: 180px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.learn_body-right {
+    border-left: 1px solid rgb(211, 208, 208);
+    height: auto;
+}
+
+.learn_body-right .content-lesson {
+    padding: 15px 0 0 15px;
+
+}
+
+.learn_body-right h6 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.learn_body-right-lesson-title {
+    height: 54px;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    background-color: rgb(253, 252, 252);
+    padding: 0px 15px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.list-video_title {
+    padding-left: 25px;
+    height: 54px;
+    background-color: rgb(253, 252, 252);
+    padding: "10px 0";
+    opacity: 1;
+    padding-top: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.list-video_title.active {
+    opacity: 1;
+    background-color: rgb(240, 206, 212);
+}
+
+.list-video_title h6 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.list-video_title-not-complete {
+    padding-left: 25px;
+    height: 54px;
+    background-color: rgb(211, 210, 210);
+    padding: "10px 0";
+    opacity: 0.5;
+    padding-top: 6px;
+    font-size: 13px;
+}
+
+.list-video_title-not-complete h6 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.circle-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 40px);
+    grid-gap: 20px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background: #d9d7da;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-1,
+.circle-wrap .circle .fill-2,
+.circle-wrap .circle .fill-3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 40px, 40px, 20px);
+}
+
+.circle-wrap .inside-circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #212020;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* color animation */
+
+.mask .fill-1 {
+    clip: rect(0px, 20px, 40px, 0px);
+    background-color: #ec0c0c;
+}

@@ -1,0 +1,147 @@
+.content-item {
+    padding: 30px 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    /* position: relative; */
+}
+
+.content-item .media-body {
+    background-color: #f3f2f2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.media-heading {
+    font-size: 16px;
+}
+
+.content-item.grey {
+    background-color: #F0F0F0;
+    padding: 50px 0;
+    height: 100%;
+}
+
+.content-item h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.content-item h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    margin: 10px 0 15px;
+    padding: 0;
+}
+
+.content-headline {
+    height: 1px;
+    text-align: center;
+    margin: 20px 0 70px;
+}
+
+
+#comments {
+    /* box-shadow: 0 -1px 6px 1px rgba(0, 0, 0, 0.1); */
+    background-color: #FFFFFF;
+}
+
+#comments form {
+    margin-bottom: 30px;
+}
+
+#comments .btn {
+    margin-top: 7px;
+}
+
+#comments form fieldset {
+    clear: both;
+}
+
+#comments form textarea {
+    height: 100px;
+}
+
+#comments .media {
+    border-top: 1px dashed #DDDDDD;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#comments .media>.pull-left {
+    margin-right: 20px;
+}
+
+
+#comments .media h4 {
+    margin: 0 0 10px;
+}
+
+#comments .media h4 span {
+    font-size: 14px;
+    float: right;
+    color: #999999;
+}
+
+#comments .media p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#comments .media-detail {
+    margin: 0;
+}
+
+#comments .media-detail li {
+    color: #AAAAAA;
+    font-size: 12px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+#comments .media-detail a:hover {
+    text-decoration: underline;
+}
+
+#comments .media-detail li:last-child {
+    padding-right: 0;
+}
+
+#comments .media-detail li i {
+    color: #666666;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.input-comment {
+    width: 100%;
+    background-color: #f3f2f2;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.input-comment__form {
+    width: 100%;
+    border: 0px solid;
+    background-color: #f3f2f2;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input-comment__icons i {
+    padding-left: 15px;
+}
+
+.form-input-comment {}
+
+.media-body i {
+    cursor: pointer;
+}
+
+.media-body ul li span {
+    cursor: pointer;
+}

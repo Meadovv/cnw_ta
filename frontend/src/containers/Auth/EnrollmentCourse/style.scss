@@ -1,0 +1,73 @@
+.course-detail {
+    font-family: 'system-ui', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.course-detail p {
+    font-size: 14px;
+}
+
+.course-detail h3,
+h5 {
+    font-weight: 700;
+}
+
+.course-title-detail {
+    background: rgb(234, 233, 233);
+    border-radius: 5px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.course-title-detail div div {
+    height: 45px;
+    align-items: center;
+    display: flex;
+}
+
+.course-title-detail div div i {
+    font-size: 20px;
+    padding-top: -5px;
+    color: #f05123;
+}
+
+.course-detail .lesson {
+    background: rgb(252, 251, 251);
+    border-radius: 5px;
+    display: flex;
+    border-bottom: 1px solid rgb(238, 237, 237);
+}
+
+.course-detail .lesson div,
+.course-detail .lesson div p {
+    height: 45px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+}
+
+.list-lession-of-course .lesson i {
+    color: #f05123;
+}
+
+.course-detail i {
+    color: #f05123;
+}
+
+.course-detail div span {
+    margin-left: 10px;
+    font-size: 14px
+}
+
+.course-detail div {
+    line-height: 1.6;
+}
+
+.enrollment {
+    background-color: #f05123;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}

@@ -1,0 +1,79 @@
+.main-profile .managePosts i {
+    margin-right: 7px;
+}
+
+.main-profile .post-content {
+    padding: 0px 30px;
+}
+
+.main-profile .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-profile .post-action {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-profile .post-action .like {
+    cursor: pointer;
+}
+
+.main-profile .post-action .comment {
+    cursor: pointer;
+}
+
+.main-profile .post-action .share {
+    cursor: pointer;
+}
+
+.main-profile .post-content-share {
+    padding: 0 30px;
+    margin-top: 15px;
+}
+
+.main-profile .post-content-share .card {
+    border: 1px solid gainsboro;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.author {
+    font-size: 18px;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 80px;
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content div {
+    color: #333;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-content div:hover {
+    background-color: #ddd;
+}
+
+.dropdown ul li {
+    cursor: pointer;
+}

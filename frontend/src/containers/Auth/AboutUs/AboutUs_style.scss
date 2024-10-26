@@ -1,0 +1,109 @@
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+.about-member {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(29, 27, 27, 0.87);
+    position: relative;
+    margin-top: 46px;
+}
+
+.content-section {
+
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.ticket-list {
+    background-color: #fff;
+    margin-top: 42px;
+    list-style-type: none;
+}
+
+.ticket-list li {
+    color: #262626;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.places-list {
+    margin: 32px -8px 0 -8px;   
+    padding-bottom: 48px;
+}
+
+.place-item {
+    float: left;    
+    width: 33.333%;
+    padding: 0 8px;
+}
+
+.ticket-list .sold-out {
+    background-color: #ff652f;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+    border-radius: 5px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+    height: 256px;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.place-time {
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc {
+    margin-top: 15px;   
+    line-height: 1.4;
+}
+
+.about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+
+}

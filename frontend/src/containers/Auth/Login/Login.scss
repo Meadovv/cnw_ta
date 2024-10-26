@@ -1,0 +1,212 @@
+// * {
+//     margin: 0px;
+// }
+
+// .bg-form {
+//     background-image: url("/assets/images/HUST.jpg");
+//     background-size: cover;
+//     background-position: bottom 20% center;
+//     height: 100vh;
+
+//     .login-container {
+//         padding: 30px;
+//         color: white;
+//         margin-top: 20vh;
+//         border-radius: 30px;
+//         background: rgba(41, 37, 37, 0.87);
+
+//         -webkit-box-shadow: 0px 1px 22px 5px rgba(0, 0, 0, 0.75);
+//         -moz-box-shadow: 0px 1px 22px 5px rgba(0, 0, 0, 0.75);
+//         box-shadow: 0px 1px 22px 5px rgba(0, 0, 0, 0.75);
+
+//         .login-title {
+//             text-align: center;
+//             font-family: 'Pacifico', cursive;
+//             font-size: 70px;
+//         }
+
+//         .forgot-password a {
+//             /* text-decoration: none; */
+//             float: right;
+//             margin-right: 10px;
+//         }
+
+//         label {
+//             font-size: 16px;
+//         }
+
+//         .signin {
+//             font-size: 16px;
+//             height: 35px;
+//             width: 80px;
+//         }
+//     }
+// }
+
+// .custom-input-password {
+//     position: relative;
+
+//     i {
+//         position: absolute;
+//         margin-top: -45px;
+//         color: black;
+//         font-size: 17px;
+//         right: 14px;
+//         cursor: pointer;
+//     }
+// }
+
+.main-login {
+    box-shadow: 0 0 10px 5px rgb(182, 177, 177);
+    color: #202124;
+    font-size: 15px;
+    padding: 40px 40px 0 40px;
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    background: white;
+}
+
+.main-login .brand h4 {
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+.main-login .brand {
+    justify-content: center;
+    align-items: center;
+}
+
+.main-login h2 {
+    font-weight: 500;
+}
+
+
+.main-login .main__form__children {
+    display: flex;
+}
+
+.main-login .main__form__children.invalid .form-message {
+    color: red;
+}
+
+.main-login .inputEmail p.invalid,
+.main-login .inputPassword p.invalid {
+    color: red;
+}
+
+.main-login .inputPassword #password.invalid,
+.main-login .inputPassword #verPassword.invalid {
+    border: 1px solid red;
+}
+
+.main-login .inputEmail input.invalid {
+    border: 1px solid red;
+}
+
+.main-login .form-message {
+    /* font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0; */
+}
+
+.main-login .main__form__children p,
+.main-login .main__form__children .form-message {
+    padding: 8px;
+    font-size: 13px;
+    color: #5f6368;
+    margin-top: -4px;
+    width: 354px;
+}
+
+.main-login .main__form__children a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--gm-colortextbutton-ink-color, rgb(75, 148, 245));
+    font-family: "Google Sans", Roboto, Arial, sans-serif !important;
+    letter-spacing: .0107142857em;
+    text-transform: none;
+}
+
+.main-login .main__form__children a:hover {
+    color: var(--gm-colortextbutton-ink-color, rgb(29, 103, 200));
+}
+
+.main-login .usePresentEmail {
+    margin-top: 7px;
+}
+
+.main-login .main__form__children .inputPassword input {
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgb(186, 183, 183);
+    padding-left: 8px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.main-login .inputEmail input {
+    width: 100%;
+    height: 32px;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(186, 183, 183);
+    font-size: 15px;
+}
+
+.main-login .showPassword {
+    margin-top: 15px;
+    height: 30px;
+    display: flex;
+}
+
+.main-login .showPassword input {
+    height: 18px;
+    width: 18px;
+}
+
+.main-login .showPassword .textShow {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.main-login .button-list {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-login .button-list .btn-next {
+    height: 36px;
+    width: 111px;
+    background: var(--gm-colortextbutton-ink-color, rgb(53, 131, 232));
+    color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-login .button-list .btn-forgot {
+    color: var(--gm-colortextbutton-ink-color, rgb(75, 148, 245));
+    background: #fff;
+    font-weight: 600;
+    border: 0px solid #fff;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    height: 36px;
+}
+
+.login-page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgb(207, 205, 205) 0%, #9ac7f1 100%);
+}
